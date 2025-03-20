@@ -1,0 +1,29 @@
+Git账号：18738034880
+密码：z20000204
+
+推送工程代码到Gitee:
+git init
+git remote add origin https://gitee.com/zheng-kunpeng555/lcd128x64.git
+//git pull origin master
+git add .
+git commit -m "frist"
+git push origin master
+
+
+推送工程代码到GitHub:
+git init
+git add .
+git remote add origin https://gitee.com/zheng-kunpeng555/lcd128x64.git
+git commit -m "这是一个关于MCU的资料"
+git push -u origin master
+
+在已有仓库添加新的文件GitHub:
+
+git pull origin master
+git add . 注意add和.之间有空格
+git commit -m "前端"
+git push origin master
+
+
+
+
